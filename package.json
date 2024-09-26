@@ -1,0 +1,22 @@
+{
+  "name": "react-monitor",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+"scripts": {
+    "build": "rollup -c",
+    "changeset": "changeset",
+    "packages-version": "changeset version",
+    "publish": "changeset publish --registry=https://registry.npmjs.com/"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.8",
+    "rollup": "2.78.0",
+    "rollup-plugin-typescript2": "0.34.1",
+    "typescript": "4.9.4"
+  }
+}
